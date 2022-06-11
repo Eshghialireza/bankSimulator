@@ -1,4 +1,4 @@
-package com.banksimulator.baseDomain;
+package com.banksimulator.base.domain;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
