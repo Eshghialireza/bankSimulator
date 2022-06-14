@@ -6,7 +6,7 @@ import javax.persistence.OneToOne;
 import java.util.Date;
 
 @Entity
-public class Boss extends Base<Integer> {
+public class Boss extends Base<Long> {
     @OneToOne(mappedBy = "boss")
     private BankBranch bankBranch;
     @Column(nullable = false)

@@ -5,7 +5,7 @@ import com.banksimulator.base.domain.Base;
 import javax.persistence.*;
 
 @Embeddable
-public class Address {
+public class Address{
     @Column(nullable = false)
     private String province;
     @Column(nullable = false)

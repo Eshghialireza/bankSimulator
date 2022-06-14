@@ -6,7 +6,7 @@ import javax.persistence.criteria.CriteriaBuilder;
 import java.util.List;
 
 @Entity
-public class Customer extends Base<Integer> {
+public class Customer extends Base<Long> {
     @Column(nullable = false)
     private String name;
     @Column(nullable = false)

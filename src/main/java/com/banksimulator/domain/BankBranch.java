@@ -5,7 +5,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-public class BankBranch extends Base<Integer> {
+public class BankBranch extends Base<Long> {
 
     @OneToOne
     private Boss boss;

@@ -6,7 +6,7 @@ import javax.persistence.OneToOne;
 import java.util.Date;
 
 @Entity
-public class Card extends Base<Integer> {
+public class Card extends Base<Long> {
     @Column(nullable = false)
     private Long cardNumber;
     @Column(nullable = false)

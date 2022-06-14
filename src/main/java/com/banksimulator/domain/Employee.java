@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.OneToOne;
 
 @Entity
-public class Employee extends Base<Integer> {
+public class Employee extends Base<Long> {
     @Column(nullable = false)
     private String name;
     @Column(nullable = false)

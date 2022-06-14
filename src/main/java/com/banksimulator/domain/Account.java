@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.OneToOne;
 
 @Entity
-public class Account extends Base<Integer> {
+public class Account extends Base<Long> {
     @Column(nullable = false)
     private long balance;
     @OneToOne

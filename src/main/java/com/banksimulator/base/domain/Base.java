@@ -4,7 +4,7 @@ import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
 @MappedSuperclass
-public class Base <ID extends Serializable> implements Serializable{
+public abstract class Base <ID extends Serializable> implements Serializable{
     @Id
     @GeneratedValue
     private ID id;
